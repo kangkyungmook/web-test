@@ -1,0 +1,219 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#gameField {
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.sub {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(100, 67, 15);
+    padding: 10px;
+    margin: 600px;
+}
+
+#M {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(233, 172, 75);
+    position: absolute;
+    left: -690px;
+    top: -660px;
+    padding: 6px;
+    margin: 700px;
+    /*visibility: visible;*/
+}
+
+#money {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    position: absolute;
+    left: 6px;
+    top: 50px;
+    /*visibility: visible;*/
+}
+
+#G {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(233, 172, 75);
+    position: absolute;
+    left: -600px;
+    top: -660px;
+    padding: 6px;
+    margin: 700px;
+    /*visibility: visible;*/
+}
+
+#ginseng {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    /*visibility: visible;*/
+}
+
+#RG {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(233, 172, 75);
+    position: absolute;
+    left: -510px;
+    top: -660px;
+    padding: 6px;
+    margin: 700px;
+    /*visibility: visible;*/
+}
+
+#redGinseng {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    position: absolute;
+    left: 194px;
+    top: 50px;
+    /*visibility: visible;*/
+}
+
+#S {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(38, 104, 211);
+    position: absolute;
+    left: 650px;
+    top: -680px;
+    padding: 10px;
+    margin: 700px;
+    /*visibility: visible;*/
+}
+#S:hover {
+    color: rgb(0, 0, 0);
+}
+
+#stage {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    position: absolute;
+    left: 1380px;
+    top: 50px;
+    /*visibility: visible;*/
+}
+
+#buyGinseng {
+    float: left;
+    margin: 100px;
+    position: absolute;
+    left: -60px;
+    top: 500px;
+    /*visibility: visible;*/
+}
+
+#buyGinseng:hover {
+    color:rgb(199,82,82);
+}
+
+#makeRedGinseng {
+    float: right;
+    margin: 100px;
+    position: absolute;
+    left: -60px;
+    top: 430px;
+    /*visibility: visible;*/
+}
+
+#makeRedGinseng:hover {
+    color:rgb(199,82,82);
+}
+
+#sellRedGinseng {
+    float: left;
+    margin: 100px;
+    position: absolute;
+    left: -60px;
+    top: 360px;
+    /*visibility: visible;*/
+}
+
+#sellRedGinseng:hover {
+    color:rgb(199,82,82);
+}
+
+#gameReStart {
+    float: right;
+    margin: 100px;
+    position: absolute;
+    visibility: hidden;
+    left: 575px;
+    top: 500px;
+    background-color: rgb(55, 105, 152);
+}
+
+#gameReStart:hover {
+    color:rgb(0, 0, 0);
+}
+
+
+#gameOver {
+    position: absolute;
+    left: 675px;
+    top: 100px;
+    visibility: hidden;
+    color: rgb(0, 0, 0);
+}
+
+#info {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 140px;
+    top: -12px;
+}
+
+#RGman {
+    position: absolute;
+    left: 550px;
+    top: 230px;
+}
+
+#RGman2 {
+    position: absolute;
+    left: 440px;
+    top: 300px;
+}
+
+#about {
+    position: absolute;
+    left: 500px;
+    top: 220px;
+}
+
+#percent {
+    position: absolute;
+    left: 1330px;
+    top: 550px;
+}
