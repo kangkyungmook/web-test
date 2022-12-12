@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Red Ginseng Game</title>
+        <link rel="stylesheet" type="text/css" href="ginseng.css">
+    </head>
+    <body>
+        <table id = "percent">
+            <tr align="center">
+                <th>홍삼 만들기 확률</th>
+            </tr>
+            <tr align="center">
+                <td>꽝</td>
+                <td>90%</td>
+            </tr>
+            <tr align="center">
+                <td>일반 홍삼(+1)</td>
+                <td>8%</td>
+            </tr>
+            <tr align="center">
+                <td>고려 홍삼(+5)</td>
+                <td>2%</td>
+            </tr>
+        </table>
+        <div id = "gameFeild">
+            <div id = "gameOver"> 
+                <center>
+                    <h1>Game Over</h1>
+                    <h4>Click the restart button to restart</h4>
+                </center>
+            </div>
+
+            <img id = "RGman" src = "rgm.jpg">
+            <img id = "RGman2" src = "hsm2.jpeg">
+            <h1 id = "about">
+                "한국의 힘, 고려 홍삼"
+            </h1>
+
+            <h3 id = "info">5</h3>
+
+            <div id = "scoreFeild">
+                <p id = "M">M</p> 
+                <p id="money">300</p>
+                <p id = "G">G</p> 
+                <p id="ginseng">0</p>
+                <p id = "RG">RG</p> 
+                <p id="redGinseng">1000</p>
+            </div>
+
+            <div id = "stageFeild">
+                <p id = "S" onclick="checkStage()" >Stage</p> 
+                <p id="stage">1</p>
+            </div>
+
+            <div id = "eventFeild">
+                <p class="sub" id="buyGinseng" onclick="buyGinseng()" >인삼 사오기(-10M)</p>
+                <p class="sub" id="makeRedGinseng" onclick="makeRedGinseng()" >홍삼 만들기(-1G)</p>
+                <p class="sub" id="sellRedGinseng" onclick="sellRedGinseng()" >홍삼 팔기(+100M)</p>
+                <p class="sub" id="gameReStart" onclick="gameReStart()" >게임 재시작</p>
+            </div>
+        </div>    
+        <script type="text/javascript" src="ginseng.js"></script>
+    </body>
+</html>
